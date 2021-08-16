@@ -1,0 +1,32 @@
+.box{
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  
+}
+.subText{
+  color: #A0A3B0;
+  font-size: 15px;
+}
+.domText{
+  font-size: 26px;
+  margin: 0;
+}
+.middleText{
+  font-size: 20px;
+  font-style: italic;
+
+}
+hr{
+  color: #e3e4e6;
+  width: 90%;
+}
+.pagebox{
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: flex;
+}
+a{
+  text-decoration: none;
+}
