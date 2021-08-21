@@ -1,9 +1,7 @@
 module.exports = {
   // publicPath: process.env.NODE_ENV === 'production'
   // ? '/resume/'
-  // : '/'
-
-  
+  // : '/'  
   publicPath: './',  
   // 输出文件目录
   outputDir: 'dist',
