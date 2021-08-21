@@ -16,9 +16,6 @@ module.exports = {
   // see https://github.com/vuejs/vue-cli/blob/dev/docs/webpack.md
   chainWebpack: () => {},
   configureWebpack: () => {},
-  // vue-loader 配置项
-  // https://vue-loader.vuejs.org/en/options.html
-  // vueLoader: {},
   // 生产环境是否生成 sourceMap 文件
   productionSourceMap: true,
   // css相关配置
@@ -35,21 +32,7 @@ module.exports = {
   // use thread-loader for babel & TS in production build
   // enabled by default if the machine has more than 1 cores
   parallel: require('os').cpus().length > 1,
-  // 是否启用dll
-  // See https://github.com/vuejs/vue-cli/blob/dev/docs/cli-service.md#dll-mode
-  // dll: false,
   // PWA 插件相关配置
   // see https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa
   pwa: {},
-  // webpack-dev-server 相关配置
-  // devServer: {
-  //   open: process.platform === 'darwin',
-  //   disableHostCheck: true,
-  //   host: 'www.test.com',//如果是真机测试，就使用这个IP
-  //   port: 1234,
-  //   https: false,
-  //   hotOnly: false,
-  //  before: app => {}
-  // }
-
 }
