@@ -23,7 +23,7 @@
     <div id="expect" class="box">
       <p id="shu" class="domText">求职意向</p>
       <p class="subText">
-        期望职位：前端实习生<br />期望城市：上海<br />期望时间：2021年9月～2021年11月
+        期望职位：前端工程师<br />期望城市：上海
       </p>
     </div>
   </div>
@@ -35,7 +35,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 @import url("../../assets/css/page.css");
 #name {
   height: 90px;

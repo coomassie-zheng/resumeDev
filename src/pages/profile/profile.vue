@@ -5,7 +5,7 @@
       <div v-for="(skill, index) of skills" :key="index" >
         <p class="domText">{{skill.title}}</p>
         <p class="subText">{{skill.content}}</p>
-        <hr v-if="index !== 5"/>
+        <hr v-if="index !== skills.length - 1"/>
       </div> 
     </div>
   </div>

@@ -38,7 +38,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 @import url("../../assets/css/page.css");
 
 #phone img {
